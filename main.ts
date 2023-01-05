@@ -5,7 +5,7 @@ input.onButtonPressed(Button.A, function () {
         led.plot(me, 4)
     }
 })
-input.onButtonPressed(Button.AB, function () {
+input.onSound(DetectedSound.Loud, function () {
     lazerx = me
     if (me == stonex) {
         lazer = 1
